@@ -59,7 +59,7 @@ Example video: https://youtu.be/i_OjztdQ8iw
 
 ----
 
-#### Redesign Time
+## Redesign Time
 - Groups rewrite the ghost pseudocode to be “smarter”
     - E.g. switch to “flee mode” when frightened.
     - Be sure to use plain language and structure your pseudocode clearly.
