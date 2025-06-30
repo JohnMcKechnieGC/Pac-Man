@@ -2,6 +2,8 @@
 
 This repo contains some initial pseudocode and mazes to support an introduction to programming based on the Pac-Man game.
 
+Having run this session, it took about 1 hour to get to the point of creating the maze and simulating the first game. If you want to concentrate on the code and modifications, you may prefer to run the session with the maze and character counters prepared in advance.
+
 ----
 
 ## Learning Objectives:
