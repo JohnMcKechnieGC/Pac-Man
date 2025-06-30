@@ -49,11 +49,13 @@ Example video: https://youtu.be/i_OjztdQ8iw
 ----
 
 ## Debrief: What Went Wrong?
+- Was it easy to follow the instructions for each ghost, or were the instruction sometimes unclear?
 - Did Pac-Man escape too easily?
 - How did the ghosts react when Pac-Man ate a power pellet?
 - Was it easy to keep score?
 - Were the rules of the game clear or were you unsure what to do sometimes?
-- How might we make the ghosts smarter?
+- What else did you notice?
+- **How might we make the ghosts smarter?**
 
 ----
 
