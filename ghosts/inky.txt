@@ -1,0 +1,15 @@
+// Inky, the Easily-Distracted Wanderer
+// Treats every junction like a roundabout – always take the first exit on the right.
+
+REPEAT every turn
+    IF the way to the RIGHT is clear
+        Turn RIGHT
+    OTHERWISE IF the way AHEAD is clear
+        (keep current direction)
+    OTHERWISE IF the way to the LEFT is clear
+        Turn LEFT
+    OTHERWISE
+        Turn BACK
+    ENDIF
+    TAKE one step
+END REPEAT

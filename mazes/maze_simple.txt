@@ -1,0 +1,18 @@
+████████████
+█o········o█
+█·█·████·█·█
+█o···  ···o█
+█·█·█══█·█·█
+█·█·█  █·█·█
+█·█·████·█·█
+█o···  ···o█
+█·█·████·█·█
+█o········o█
+████████████
+
+Key:
+█     Wall
+·     Regular pellet
+o     Power pellet
+══    Ghost-house door
+space Empty corridor

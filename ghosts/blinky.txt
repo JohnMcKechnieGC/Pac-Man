@@ -1,0 +1,16 @@
+// Blinky, the Straight-Line Chaser
+// Loves a direct pursuit. No fuss, no flair.
+
+REPEAT every turn
+    IF Blinky sees Pac-Man
+        Face directly towards Pac-Man (same row → left/right, same column → up/down)
+        TAKE one step
+    OTHERWISE
+        IF the way ahead is clear
+            TAKE one step
+        OTHERWISE
+            Turn LEFT (keep turning left until the way ahead is clear)
+            TAKE one step
+        ENDIF
+    ENDIF
+END REPEAT

@@ -1,0 +1,22 @@
+// Clyde, the Shy Chaser
+// Bold when far away, bashful when close.
+
+REPEAT every turn
+    LET distance ← number of squares (Manhattan) between Clyde and Pac-Man
+
+    IF distance > 8
+        // Chase mode
+        Face towards Pac-Man using the shorter of
+            • horizontal gap
+            • vertical gap
+    OTHERWISE
+        // Flee mode
+        Face directly AWAY from Pac-Man (opposite direction)
+    ENDIF
+
+    IF the way ahead is blocked
+        Turn LEFT until clear
+    ENDIF
+
+    TAKE one step
+END REPEAT

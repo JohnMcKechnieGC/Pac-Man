@@ -1,0 +1,15 @@
+// Pinky, the Over-Eager Ambusher
+// Tries to cut Pac-Man off by aiming four squares ahead of him.
+
+REPEAT every turn
+    LET target ← the square four steps in front of Pac-Man’s current facing
+    IF Pinky can reach target WITHOUT passing through a wall by moving horizontally first
+        Face horizontally towards the target
+    OTHERWISE
+        Face vertically towards the target
+    ENDIF
+    IF the way ahead is blocked
+        Turn RIGHT until it is clear   // keeps circling walls clockwise
+    ENDIF
+    TAKE one step
+END REPEAT
